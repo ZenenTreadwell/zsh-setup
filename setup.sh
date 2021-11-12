@@ -26,7 +26,7 @@ cat tmux_config.conf > ~/.tmux.conf
 
 echo "configuring vim"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cat vim_config.conf > ~/.vimrc 
+cat config.vim > ~/.vimrc 
 vim +PluginInstall +qall
 
 echo "Theming Oh My Zsh"
